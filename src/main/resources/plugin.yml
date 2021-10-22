@@ -1,0 +1,14 @@
+name: SuperToolsAndArmor
+main: me.petterim1.staa.Main
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
+
+commands:
+  supergive:
+    description: "Give a super item"
+    usage: "/supergive <player> <item> [level]"
+    permission: "super.give"
+permissions:
+  super.give:
+    default: op
